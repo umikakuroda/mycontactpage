@@ -1,0 +1,177 @@
+/*This is my 201 Contact Web Page Project using Eric Meyer's reset at the top of my page -- your CSS starts on line 56 */
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* ---------- This is the beginning of my 201 Contact Web Page Project ------------ */
+
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-image: url("images/geometric-bg.jpg"); 
+  background-color: #e0fbfc;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  text-align: center;
+}
+
+nav{
+	font-family: fieldwork, sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 1.2em;
+	display: flex;
+	text-align: center;
+	padding-top: 40px;
+	padding-left: 10%;
+	padding-right: 10%;
+	position: fixed;
+	top: 0;
+	right: 0;
+	/* width: 400px; /*This is the width of the nav element */
+	/* margin: 0 auto; /*This centers the entire nav element inside the center div */
+	/* border: dashed turquoise;
+	border-width: 3px 0; /*This puts a 3 pixel border on top and bottom of the nav element, the zero elimnates the left and right sides of the border */
+	/* text-align: center;
+	margin-top: 2em; /*This adds a bit of space above the nav element */
+}
+
+nav li{
+	display: inline; /*This allows the block level elements to display next to one another */
+}
+
+nav a{
+	display: inline-block;
+	padding: 10px; /* This adds space around each of the links */
+}
+
+a{
+	color: #424D55;
+	text-decoration: none; /*This removes the underlines */
+	font-weight: bold;
+}
+    
+a:hover{
+	color: #CFA48D;
+	text-align: center;
+}
+    
+
+/* for sizing and aligning center div box */
+.center {
+    width: 300px;
+	height: 300px;
+	padding: 2%;
+    margin: 200px auto 50px auto;
+ 	background: #424D55;
+	/*background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/ 
+	text-align: center;
+	/* border: 4px solid white; */
+	position: relative;
+}
+
+/* for sizing logo and text within center div box */
+.inner-content {
+	margin: auto;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+}
+
+/* for personal info text (color, alignment, size) */
+.personal-info {
+	color: #424D55;
+	width: 400px;
+	height: 200px;
+	text-align: center;
+	position: relative;
+	margin: auto;
+}
+
+#logo {
+	width: 250px;
+    margin-bottom: 16px;
+	/* border: 3px dashed red; */
+	text-align: center;
+}
+
+h1 {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: brix-slab, serif;
+	font-size: 2em;
+    margin: 0px auto 10px auto;
+    color: #fff;
+}
+
+h2 {
+	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: brix-slab, serif;
+	font-size: 1.5em;
+    line-height: 1.4;
+    padding: 0px 0px;
+    margin: 0px auto 25px auto;
+}
+
+p {
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	font-family: brix-slab, serif;
+	font-size: 1.2em;
+    line-height: 1.6;
+    color: #fff;
+}
